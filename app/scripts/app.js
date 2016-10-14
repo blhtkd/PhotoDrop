@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name angularTestApp
+ * @name photoDropApp
  * @description
- * # angularTestApp
+ * # photoDropApp
  *
  * Main module of the application.
  */
 angular
-  .module('angularTestApp', [
+  .module('photoDropApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -21,6 +21,11 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
+        controller: 'MainCtrl',
+        controllerAs: 'main'
+      })
+      .when('/login', {
+        templateUrl: 'views/login.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
