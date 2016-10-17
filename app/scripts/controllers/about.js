@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name photoDropApp.controller:MainCtrl
+ * @name photoDropApp.controller:AboutCtrl
  * @description
- * # MainCtrl
+ * # AboutCtrl
  * Controller of the photoDropApp
  */
 angular.module('photoDropApp')
-  .controller('MainCtrl', function () {
+  .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
